@@ -1,7 +1,7 @@
 ### PLEASE NOTE TO KEEP "entertainment_center.py", "fresh_tomato.py" & "media.py" in same directory for working of the project.
 
 import fresh_tomato 	# imports the website design using fresh_tomato.py
-import media			# imports media.py where the class file is defined
+import media		# imports media.py where the class file is defined
 
 # List of Movies as objects of class in media.py are as follows with their variables:
 
@@ -37,15 +37,6 @@ taare_zameen_par = media.Movie("Taare Zameen Par",
 
 
 movies = [dalgal, a_wednesday, titanic, three_idiots, swades, taare_zameen_par]  	# List of movies' variable
-fresh_tomato.open_movies_page(movies) 												# Open the Processed Website
+fresh_tomato.open_movies_page(movies) 							# Open the Processed Website
 
-
-"""
-#print (three_idiots.title)
-#three_idiots.show_trailer()
-#print media.Movie.VALID_RATINGS
-#print media.Movie.__doc__
-#print media.Movie.__name__
-#print media.Movie.__module__
-"""
 
